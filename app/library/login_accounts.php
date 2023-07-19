@@ -7,7 +7,7 @@ class LoginAccounts
     /**
      * ログインIDをキーにデータを取得する
      *
-     * @param srting $loginId ログインID
+     * @param string $loginId ログインID
      * @return array SQL実行結果配列
      */
     public static function getByLoginId(string $loginId): array | bool
